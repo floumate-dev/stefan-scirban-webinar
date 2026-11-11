@@ -354,7 +354,7 @@
     const iframe=$('#calendar-embed iframe');if(!iframe||event.source!==iframe.contentWindow||!calendarReady)return;
     const payload=event.data.payload;
     if(!payload?.event?.uri||!payload?.invitee?.uri)return;
-    const next=new URL(config.booking.confirmationPath,location.origin);
+    const next=new URL(config.booking.confirmationPath,location.href);
     if(next.origin===location.origin)location.assign(next.href);
   });
 })();

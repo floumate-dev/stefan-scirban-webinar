@@ -22,7 +22,7 @@ window.FUNNEL_CONFIG = Object.freeze({
   },
   booking: {
     calendlyUrl: '', // Stefan's 15-minute analysis EVENT link, not a profile.
-    confirmationPath: '/ccp/',
+    confirmationPath: '../ccp/',
     // Map each form field to its actual Calendly custom question a1...a10.
     // Add matching questions to the event first. All answers must be mapped.
     questionMap: {

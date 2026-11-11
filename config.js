@@ -17,7 +17,7 @@ window.WEBINAR_CONFIG = Object.freeze({
     // Country code added to local numbers typed with a leading 0 (060... -> 38160...).
     defaultCountryCode: '381'
   },
-  redirectUrl: '/thank-you/',
+  redirectUrl: 'thank-you/',
   privacyPolicyUrl: '',
   metaPixelId: '',
   // Enable only after the relevant consent setup is in place.
